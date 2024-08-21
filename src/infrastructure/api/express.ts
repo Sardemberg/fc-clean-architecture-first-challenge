@@ -10,6 +10,8 @@ app.use(express.json());
 app.use("/customer", customerRoute);
 app.use("/product", productRouter)
 
+// AAAAAAAAAAAAAAAAAAAAAAAAA
+
 export let sequelize: Sequelize;
 
 async function setupDb() {
