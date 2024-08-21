@@ -11,6 +11,7 @@ app.use("/customer", customerRoute);
 app.use("/product", productRouter)
 
 // AAAAAAAAAAAAAAAAAAAAAAAAA
+// AAAA
 
 export let sequelize: Sequelize;
 
